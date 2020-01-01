@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  pyx2code:
+    build: .
+    #command: /bin/bash /code/start.sh
+    #command: /bin/bash /code/train.sh
+    volumes:
+    - .:/code
